@@ -13,7 +13,7 @@ def max_of_two(a, b):
     else:
         return b
 
-greet("Анна")
+greet("Маша")
 greet("Сергей")
 print("Квадрат 5:", square(5))
 print("Квадрат 12:", square(12))
@@ -132,16 +132,16 @@ def calculate_sum(numbers):
 
 def find_min(numbers):
     minimum = numbers[0]
-    for n in numbers:
-        if n < minimum:
-            minimum = n
+    for i in numbers:
+        if i < minimum:
+            minimum = i
     return minimum
 
 def find_max(numbers):
     maximum = numbers[0]
-    for n in numbers:
-        if n > maximum:
-            maximum = n
+    for o in numbers:
+        if o > maximum:
+            maximum = o
     return maximum
 
 numbers = [4, 8, 15, 16, -429, -2, 392, 23, 42, 7, 11, 3, 9, 462,]
@@ -206,23 +206,23 @@ def calculate_average(measurements):
 
 def find_minimum(measurements):
     minimum = measurements[0]
-    for n in measurements:
-        if n < minimum:
-            minimum = n
+    for o in measurements:
+        if o < minimum:
+            minimum = o
     return minimum
 
 def find_maximum(measurements):
     maximum = measurements[0]
-    for n in measurements:
-        if n > maximum:
-            maximum = n
+    for r in measurements:
+        if r > maximum:
+            maximum = r
     return maximum
 
 def count_above_average(measurements):
     avg = calculate_average(measurements)
     count = 0
-    for n in measurements:
-        if n > avg:
+    for u in measurements:
+        if u > avg:
             count += 1
     return count
 
